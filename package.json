@@ -1,0 +1,24 @@
+{
+  "name": "rollup-issue",
+  "version": "0.0.0",
+  "description": "Repro code for a rollup issue",
+  "dependencies": {},
+  "scripts": {
+    "test": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysticatea/rollup-issue.git"
+  },
+  "keywords": [],
+  "author": "Toru Nagashima (https://github.com/mysticatea)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mysticatea/rollup-issue/issues"
+  },
+  "homepage": "https://github.com/mysticatea/rollup-issue#readme",
+  "devDependencies": {
+    "monaco-editor": "^0.13.1",
+    "rollup": "^0.59.2"
+  }
+}
