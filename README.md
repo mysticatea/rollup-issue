@@ -1,5 +1,7 @@
 # An issue of rollup.js
 
+**This has been fixed in [rollup/rollup#2218](https://github.com/rollup/rollup/pull/2218)**.
+
 I tried to rollup the typescript language service (this will be run in a WebWorker) in [MonacoEditor] library, but it didn't finish in over 30 minutes.
 
 I suspected it might dive into infinite looping because it was using a CPU core heavily with no warnings.

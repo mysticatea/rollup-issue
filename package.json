@@ -4,7 +4,7 @@
   "description": "Repro code for a rollup issue",
   "dependencies": {},
   "scripts": {
-    "test": "rollup -c"
+    "test": "rollup -c && http-server dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/mysticatea/rollup-issue#readme",
   "devDependencies": {
+    "http-server": "^0.11.1",
     "monaco-editor": "^0.13.1",
-    "rollup": "^0.59.2"
+    "rollup": "github:rollup/rollup#better-reassignment-tracking",
+    "rollup-plugin-node-resolve": "^3.3.0"
   }
 }
